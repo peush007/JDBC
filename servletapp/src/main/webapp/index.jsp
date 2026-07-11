@@ -11,8 +11,12 @@
 <%@ include file = "navbar.jsp" %>
 
 	<h1>Hello World</h1>
+	
 	<form action = "<%= application.getContextPath() %>/third">
+	
+	<input name = "roll" placeholder = "Enter your Roll">
 	<input name = "firstname" placeholder = "Enter your name">
+	<input name = "city" placeholder = "Enter your City">
 	<button type = "submit"> Submit</button>
 	</form>
 	
